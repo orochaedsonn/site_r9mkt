@@ -4,6 +4,10 @@
   box-sizing: border-box;  
 }
 
+body {
+  font-family: "JetBrains Mono", serif;
+}
+
 header {
   padding: 16px 0;
   background-color: #22222C;
@@ -16,9 +20,14 @@ header nav li {
   font-size: 18px;
 }
 
-header nav li a{
+header nav li a {
   color: #fccc4a;
   text-decoration: none;
+}
+
+body {
+  background-color: #191920;
+  color: #cecece;
 }
 
 .container {
@@ -27,8 +36,52 @@ header nav li a{
   margin: 0 auto;
 }
 
-header .container {
+header .container,
+section .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
+.icon-list {
+  height: 40px;
+  font-size: 38px;
+}
+
+.icon-list li {
+  display: inline;
+}
+
+section .container {
+  align-items: flex-start;
+}
+
+section .container img {
+  width: 50%;
+}
+
+section {
+  padding: 24px 0;
+}
+
+section h2 {
+  margin-bottom: 16px;
+  color: #fccc4a;
+}
+
+section p {
+  margin-bottom: 8px;
+  margin-right: 22px; 
+}
+
+banner-top {
+  margin-left: 32px;
+}
+
+.history-board h3 {
+  color: #fccc4a;
+  padding: 6px;
+  margin-bottom: 8px;
+  
+}
+
