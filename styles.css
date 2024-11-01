@@ -82,6 +82,27 @@ banner-top {
   color: #fccc4a;
   padding: 6px;
   margin-bottom: 8px;
-  
 }
 
+.social-links i {
+  height: 24px;
+}
+
+#contact .container {
+  display: block;
+}
+.contact-methods {
+  display: flex;
+}
+
+form input,
+textarea,
+form button {
+  display: block;
+  width: 320px;
+  margin-bottom: 8px;
+}
+
+form textarea {
+  resize: none;
+}
